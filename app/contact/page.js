@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="bg-black/70 h-screen pt-14">
       <h1 className="text-2xl font-bold text-center p-4">Lets work together</h1>
       <form className="max-w-[600px] m-auto">
         <div className="grid grid-cols-2 gap-2">
@@ -26,7 +26,9 @@ export default function Contact() {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="border shadow-lg p-3 w-full mt-2">Submit</button>
+        <button className="border bg-blue-700 text-white shadow-lg p-3 w-full mt-2">
+          Submit
+        </button>
       </form>
     </div>
   );
