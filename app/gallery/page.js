@@ -10,7 +10,7 @@ export default function Gallery({ slides }) {
   return (
     <div className="max-w-[1240px] mx-auto bg-black/70 h-screen pt-14">
       <h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
-      <div className="relative flex justify-center p-4">
+      <div className="relative flex justify-center items-center m-auto p-4 w-[650px]">
         <Carousel>
           {SliderData.map((slide, index) => {
             return (
