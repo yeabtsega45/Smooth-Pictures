@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
-            Smooth
+            Smooth.
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
@@ -51,7 +51,7 @@ export default function Navbar() {
             <Link href="/#contact">Contact</Link>
           </li>
         </ul>
-        #{/* Mobile Button */}
+        {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
