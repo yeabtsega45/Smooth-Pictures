@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="bg-black/70 h-screen pt-14">
+    <div id="contact" className="bg-black/70 h-screen pt-14">
       <h1 className="text-2xl font-bold text-center p-4">Lets work together</h1>
       <form className="max-w-[600px] m-auto">
         <div className="grid grid-cols-2 gap-2">
