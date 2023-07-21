@@ -1,3 +1,7 @@
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can visit the [Live Demo Website](https://smooth-pictures.netlify.app/).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
