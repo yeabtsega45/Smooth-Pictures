@@ -2,6 +2,7 @@ import Home from "./home/page";
 import Gallery from "./gallery/page";
 import Work from "./work/page";
 import Contact from "./contact/page";
+import About from "./about/page";
 
 export default function allPages() {
   return (
@@ -10,6 +11,7 @@ export default function allPages() {
       <Gallery />
       <Work />
       <Contact />
+      <About />
     </>
   );
 }
