@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-color: white;
 }
 
 .custom-img {
@@ -32,7 +33,7 @@ body {
 
 @layer base {
   h1 {
-    @apply text-white text-5xl font-bold;
+    @apply text-5xl font-bold;
   }
   li {
     @apply font-bold;

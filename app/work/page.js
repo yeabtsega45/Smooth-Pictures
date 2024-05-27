@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Work() {
   return (
-    <div id="work" className="text-center bg-black/70 h-screen py-14">
+    <div id="work" className="text-center h-screen py-14">
       <h1 className="font-bold text-3xl p-4 mt-3">Travel Photos</h1>
       <div className="grid grid-rows-none md:grid-cols-5 p-4 gap-4 w-[90%] h-[90%] m-auto">
         <div className="w-[100%] h-[100%] col-span-2 md:col-span-3 row-span-2">

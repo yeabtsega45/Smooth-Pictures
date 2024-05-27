@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col justify-center items-center m-auto bg-black/70 h-screen pt-[120px]"
+      className="flex flex-col justify-center items-center m-auto h-screen pt-[120px]"
     >
       <h1 className="text-3xl font-bold text-center">Lets work together</h1>
       <form className="md:max-w-[600px] max-w-[350px] h-[90%] m-auto">

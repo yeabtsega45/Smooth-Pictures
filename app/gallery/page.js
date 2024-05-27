@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Gallery({ slides }) {
   return (
-    <div id="gallery" className="bg-black/70 z-[2] h-screen pt-14">
+    <div id="gallery" className="z-[2] h-screen pt-14">
       <h1 className="text-3xl font-bold text-center p-4 mt-3">Gallery</h1>
       <div className="relative flex justify-center items-center m-auto p-4 w-[450px] md:w-[650px]">
         <Carousel>
