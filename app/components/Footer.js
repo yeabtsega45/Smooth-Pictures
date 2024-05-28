@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo and About */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h2 className="text-2xl font-semibold">Medan Esubalew</h2>
-            <p className="mt-2 text-gray-400">
+            <p className="mt-2 text-gray-400 w-[70%]">
               Capturing moments from today...Creating memories for a lifetime.
             </p>
           </div>
@@ -43,13 +43,9 @@ export default function Footer() {
           {/* Contact and Social Media */}
           <div className="w-full md:w-1/3">
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400">
-              123 Photography St, Photo City, PC 12345
-            </p>
-            <p className="text-gray-400 mt-2">
-              Email: photographer@example.com
-            </p>
-            <p className="text-gray-400 mt-2">Phone: (123) 456-7890</p>
+            <p className="text-gray-400">02 Kotebe, Yeka, Addis Ababa</p>
+            <p className="text-gray-400 mt-2">Email: MedanEsubalew@gmail.com</p>
+            <p className="text-gray-400 mt-2">Phone: +251 96 314 5893</p>
             <div className="flex mt-4 space-x-4">
               <a
                 href="https://facebook.com"
