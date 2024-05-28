@@ -49,9 +49,26 @@ export default function Footer() {
           {/* Contact and Social Media */}
           <div className="w-full md:w-1/3">
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400">02 Kotebe, Yeka, Addis Ababa</p>
-            <p className="text-gray-400 mt-2">Email: MedanEsubalew@gmail.com</p>
-            <p className="text-gray-400 mt-2">Phone: +251 96 314 5893</p>
+            <p className="text-gray-400">
+              Phone:{" "}
+              <a
+                href="tel: +251963145893"
+                className="hover:text-white transition-all underline"
+              >
+                +251 96 314 5893
+              </a>
+            </p>
+            <p className="text-gray-400 mt-2">
+              Email:{" "}
+              <a
+                href="mailto:MedanEsubalew@gmail.com"
+                className="hover:text-white transition-all underline"
+              >
+                MedanEsubalew@gmail.com
+              </a>
+            </p>
+            <p className="text-gray-400 mt-2">02 Kotebe, Yeka, Addis Ababa</p>
+            {/* Social Icons */}
             <div className="flex mt-4 space-x-4">
               <a
                 href="https://facebook.com"
