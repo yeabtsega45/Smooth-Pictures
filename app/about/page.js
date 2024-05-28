@@ -9,9 +9,7 @@ export default function About() {
       className="md:h-screen bg-gray-100 flex flex-col items-center justify-center px-4 py-12"
     >
       <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg p-8 md:p-12">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center text-gray-800">
-          About Me
-        </h1>
+        <h1 className="mb-6 text-center">About Me</h1>
         <div className="flex flex-col md:flex-row items-center">
           <Image
             src={profile}
