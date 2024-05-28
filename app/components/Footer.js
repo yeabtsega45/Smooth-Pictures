@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTelegram,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -49,51 +55,27 @@ export default function Footer() {
             <div className="flex mt-4 space-x-4">
               <a
                 href="https://facebook.com"
-                className="text-gray-400 hover:text-white"
+                className="text-gray-400 hover:text-white transition-all"
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  {/* Facebook SVG */}
-                </svg>
+                <FaFacebook size={32} />
               </a>
               <a
                 href="https://twitter.com"
-                className="text-gray-400 hover:text-white"
+                className="text-gray-400 hover:text-white transition-all"
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  {/* Twitter SVG */}
-                </svg>
+                <FaTelegram size={32} />
               </a>
               <a
                 href="https://instagram.com"
-                className="text-gray-400 hover:text-white"
+                className="text-gray-400 hover:text-white transition-all"
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  {/* Instagram SVG */}
-                </svg>
+                <FaInstagram size={32} />
               </a>
               <a
                 href="https://linkedin.com"
-                className="text-gray-400 hover:text-white"
+                className="text-gray-400 hover:text-white transition-all"
               >
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  {/* LinkedIn SVG */}
-                </svg>
+                <FaLinkedin size={32} />
               </a>
             </div>
           </div>
