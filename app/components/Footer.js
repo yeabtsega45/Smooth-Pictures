@@ -24,23 +24,35 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#portfolio" className="text-gray-400 hover:text-white">
-                  Portfolio
+                <a
+                  href="/#work"
+                  className="text-gray-400 hover:text-white transition-all"
+                >
+                  Work
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white">
+                <a
+                  href="/#about"
+                  className="text-gray-400 hover:text-white transition-all"
+                >
                   About Me
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white">
+                <a
+                  href="/#contact"
+                  className="text-gray-400 hover:text-white transition-all"
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-white">
-                  Services
+                <a
+                  href="/#gallery"
+                  className="text-gray-400 hover:text-white transition-all"
+                >
+                  Gallery
                 </a>
               </li>
             </ul>

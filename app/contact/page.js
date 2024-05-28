@@ -42,25 +42,25 @@ export default function Contact() {
               href="https://facebook.com"
               className="text-gray-800 hover:text-gray-600 transition-all"
             >
-              <FaFacebook size={32} />
+              <FaFacebook size={36} />
             </a>
             <a
               href="https://twitter.com"
               className="text-gray-800 hover:text-gray-600 transition-all"
             >
-              <FaTelegram size={32} />
+              <FaTelegram size={36} />
             </a>
             <a
               href="https://instagram.com"
               className="text-gray-800 hover:text-gray-600 transition-all"
             >
-              <FaInstagram size={32} />
+              <FaInstagram size={36} />
             </a>
             <a
               href="https://linkedin.com"
               className="text-gray-800 hover:text-gray-600 transition-all"
             >
-              <FaLinkedin size={32} />
+              <FaLinkedin size={36} />
             </a>
           </div>
         </div>
